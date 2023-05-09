@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*----------------- connection------------- */
+.connection .connexion {
+  background: url(/images/adjia.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.connection .img-fluid-top {
+  width: 100px;
+  height: 100px;
+}
+.connection h1 {
+  margin-bottom: 50px;
+  color: rgb(255, 208, 0);
+}
+.connection .btn {
+  border: 1px solid black;
+  font-size: 24px;
+  font-weight: 600;
+
+  box-shadow: 5px 5px 0 black;
+}
+.connection .btn:hover {
+  background-color: rgb(255, 208, 0);
+  color: white;
+  border: 1px solid white;
+}
+.connection input:focus {
+  border: 2px solid green;
+  font-weight: 600;
+}
+.connection p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.connection p a {
+  text-decoration: none;
+}
+
+/*-----------------inscription------------- */
+.inscription .connexion {
+  background: url(/images/Capture.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.inscription .img-fluid-top {
+  width: 100px;
+  height: 100px;
+}
+.inscription h1 {
+  margin-bottom: 50px;
+  color: rgb(255, 208, 0);
+}
+.inscription .btn {
+  border: 1px solid black;
+  font-size: 24px;
+  font-weight: 600;
+
+  box-shadow: 5px 5px 0 black;
+}
+.inscription .btn:hover {
+  background-color: rgb(255, 208, 0);
+  color: white;
+  border: 1px solid white;
+}
+.inscription input:focus {
+  border: 2px solid green;
+  font-weight: 600;
+}
+/*--------------------- accueil navbar---------------------- */
+.menu form .btn {
+  font-weight: 600;
+}
+.menu .navbar {
+  padding: 0px 0;
+}
+.menu ul .nav-item {
+  margin: 0 15px;
+}
+.menu .nav-item .nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+.menu .nav-item .nav-link:hover {
+  background-color: rgb(236, 142, 142);
+  border-radius: 20px;
+}
+.menu .dropdown .dropdown-menu {
+  color: black;
+  border: none;
+  background-color: rgb(236, 142, 142);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.719);
+}
+.menu .nav-item .dropdown-menu .dropdown-item {
+  font-weight: 600;
+}
+
+.header-scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(241, 172, 172);
+  color: white;
+  -webkit-box-shadow: 0 4px 6px 0 rgb(12, 0, 46, 0.05);
+  -moz-box-shadow: 0 4px 6px 0 rgb(12, 0, 46, 0.05);
+  -o-box-shadow: 0 4px 6px 0 rgb(12, 0, 46, 0.05);
+  box-shadow: 0 4px 6px 0 rgb(12, 0, 46, 0.05);
+}
+.header-scrolled .nav-item .nav-link.nav-link.active,
+.header-scrolled .nav-item .nav-link:hover {
+  color: mediumseagreen;
+}
+
+/* -- ----------section panier et connecte ------------ */
+
+.panier-connecte {
+  margin-top: 130px;
+}
+.panier-connecte .btn {
+  font-weight: 600;
+  font-size: 18px;
+
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  display: inline;
+}
+.panier-connecte .btn:hover {
+  background-color: rgba(4, 0, 255, 0.658);
+  box-shadow: 0px 0 5px rgba(0, 0, 0, 0.658);
+  color: white;
+}
+/*------------------------- section slide */
+.slide {
+  margin-top: 30px;
+}
+
+/* --------------------type produit----------------------- */
+.type-produit {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(227, 227, 250);
+}
+.type-produit h1 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.type-produit p {
+  font-weight: 700;
+
+  color: green;
+}
+
+.type-produit .card a img {
+  width: 100%;
+  height: 400px;
+}
+/* ---------------------Produit les plus acheter------------------------- */
+.produit-acheter {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.produit-acheter h1 {
+  text-align: center;
+  padding: 50px 0;
+}
+.produit-acheter .card {
+  border: none;
+}
+.produit-acheter .card a img {
+  width: 100%;
+  height: 400px;
+}
+.produit-acheter p {
+  font-weight: 700;
+
+  color: green;
+}
+/* -----------------------temoignage-------------------- */
+.temoignage {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(/images/raw.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.temoignage h1 {
+  padding: 50px 0;
+}
+.temoignage .carousel-inner {
+  /* background-color: rgba(240, 157, 157, 0.5); */
+}
+.temoignage .carousel-inner .carousel-item .img-fluid {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+}
+.temoignage p {
+  font-weight: 600;
+  color: white;
+}
+
+/* ------------------footer------------------ */
+.footer {
+  margin-top: 50px;
+  background-color: rgba(6, 5, 20, 0.904);
+  padding: 20px 0;
+}
+.footer p {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* LISTE PRODUIT */
+.produithomme {
+  margin-top: 100px;
+}
+.produithomme .homme .card .img-fluid-top {
+  width: 100%;
+  height: 100vh;
+}
+.produithomme .homme .card {
+  border: none;
+}
+
+.produithomme .homme1 .card a .card-img {
+  width: 100%;
+  height: 350px;
+}
+.produithomme .card p {
+  font-weight: 700;
+
+  color: green;
+}
+
+.produitfemme {
+  margin-top: 100px;
+}
+.produitfemme .homme .card .img-fluid-top {
+  width: 100%;
+  height: 100vh;
+}
+.produitfemme .homme .card {
+  border: none;
+}
+
+.produitfemme .homme1 .card a .card-img {
+  width: 100%;
+  height: 350px;
+}
+.produitfemme .card p {
+  font-weight: 700;
+
+  color: green;
+}
+/* ---------------------listproduithomme et femme------------------------ */
+.listproduithomme {
+  margin-top: 100px;
+}
+.listproduithomme .homme .card .img-fluid-top {
+  width: 100%;
+  height: 100vh;
+}
+.listproduithomme .homme .card {
+  border: 1px solid rgb(190, 183, 183);
+  border-right: none;
+  border-top: none;
+  border-radius: 0px;
+}
+.listproduithomme .homme2 .card {
+  border: none;
+}
+
+.listproduithomme .homme1 .card a .card-img {
+  width: 100%;
+  height: 450px;
+}
+.listproduithomme .card p {
+  font-weight: 700;
+
+  color: green;
+}
+
+/* ----------------------contact------------------ */
+
+.contact-info {
+  margin-top: 20px;
+  background: url(/images/accessoire-mode-homme.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-info textarea {
+  height: 280px;
+}
+.contact-info .form-control {
+  font-weight: 700;
+  opacity: 0.9;
+  border-radius: 50px;
+}
+.contact-info .form-control:focus {
+  border: 5px solid green;
+}
+.contact-info .btn {
+  font-weight: 700;
+}
+/* ''''info---------------- */
+
+.info {
+  background-color: rgb(2, 2, 26);
+}
+
+.info ul .grand {
+  color: white;
+  list-style: none;
+}
+.info ul .petit {
+  color: gray;
+  list-style: none;
+  margin-top: 10px;
+}
+.info .ecart {
+  border-bottom: 1px solid gray;
+}

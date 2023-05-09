@@ -1,0 +1,28 @@
+@media (max-width: 1073px) {
+  /* navbar */
+  .menu ul .nav-item .nav-link {
+    margin: 0 8px;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+  }
+}
+
+@media (max-width: 991px) {
+  /*---------- connection--------- */
+  .connection .connexion {
+    height: 75vh;
+  }
+
+  /*----------incription--------- */
+  .inscription .connexion {
+    height: 75vh;
+  }
+  /* navbar */
+  .menu .navbar {
+    background-color: rgb(236, 142, 142);
+  }
+  .menu ul .nav-item .nav-link {
+    font-size: 18px;
+  }
+}

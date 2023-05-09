@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/responsive.css" />
+
+    <title>Boutique en ligne</title>
+  </head>
+
+  <body  data-bs-spy="scroll"
+  data-bs-target=".navbar"
+  data-bs-offset="75"
+  class="body">
+    <header class="menu">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo-africaart.png" alt="logo-africaart" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+
+            <i class="fa-solid fa-bars"><span> </span> menu </i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav mx-2">
+              <li class="nav-item">
+                <a class="nav-link" href="accueil.html">ACCUEIL</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="listeProduits.html">ListsProduits</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Details Produits
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="detailProduitshomme.html"
+                      >Homme</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="detailProduitsfemme.html"
+                      >Femme</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="formulaireContact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-1 py-2"
+                type="search"
+                placeholder="Cherchez un Produit ..."
+                aria-label="search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                RECHERCHE
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ----------section panier et connecte ------------>
+
+    <section class="panier-connecte">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-between">
+            <a href="#" class="btn">
+              <img src="/images/panier.png" alt="panier" class="img-fluid" />
+              Panier
+            </a>
+            <a href="connection.html" class="btn">
+              <img
+                src="/images/utilisateur.png"
+                alt="utilisateur"
+                class="img-fluid"
+              />
+              Connecte
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- ---------contact------------- -->
+ <section class="contact-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <form class="form">
+          <div class="form-group my-4">
+       
+            <input type="text" name=" " class="form-control py-4" placeholder="Name*"/>
+          </div>
+
+          <div class="form-group my-4">
+          <input
+              type="email"
+              name="Your Email"
+              class="form-control py-4"
+              placeholder="Your Email*"
+            />
+          </div>
+          <div class="form-group my-4">
+         
+            <input
+              type="number"
+              name="Your Phone*"
+              class="form-control p-4"
+              placeholder="Your Phone*"
+            />
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="form-group my-4" style="font-weight:bold;">
+          <textarea
+            type="text"
+            class="form-control"
+            placeholder="   Commentaire*"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center my-5">
+        <button class="btn btn-warning py-4 px-5">SEND MESSAGE</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- info -->
+
+<section class="info">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-lg-4 col-sm-12">
+        <img src="/images/logo-africaart.png" alt="">
+        <p class="text-white">AFRICART est une plateforme d'achat et de vente en ligne qui offre une large gamme de produits et services au client quotidien.</p>
+
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <div class="ecart">
+          <h4 class="text-white py-2">contact info</h4>
+        </div>
+        
+        <ul>
+          <li class="petit">Adresse:</li>
+          <li class="grand">Sicap Mbao</li>
+          <li class="petit">Téléphone:</li>
+          <li class="grand">+221781774481 / +221703472309</li>
+          <li class="petit">Email:</li>
+          <li class="grand">AFRICART@gmail.com</li>
+        </ul>
+
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <div class="ecart">
+          <h4 class="text-white py-2">Partenariat</h4>
+        </div>
+        
+        <p class="text-white pt-2"> Jumia</p>
+        <p class="text-white">SenAchat</p>
+        <p class="text-light">Bakeli</p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <!------------------------ footer----------------- -->
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center py-3"
+          >
+            <p>Copyright @ 2022 AFRICART</p>
+            <img src="/images/logo-africaart.png" alt="" />
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center py-3"
+          >
+            <a href=""><img src="/images/facebook.png" alt="dd" /></a>
+            <a href=""><img src="/images/instagram.png" alt="sd" /></a>
+            <a href=""><img src="/images/twitter.png" alt="twitter" /></a>
+            <a href=""><img src="/images/youtube.png" alt="youtube" /></a>
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center py-3"
+          >
+            <a href=""
+              ><img
+                src="/images/Wari_logo.jpg"
+                alt="Wari_logo"
+                width="64px"
+                height="40px"
+            /></a>
+            <a href=""> <img src="/images/WAVE.jpg" alt="WAVE" /></a>
+            <a href=""
+              ><img
+                src="/images/téléchargement.png"
+                alt="téléchargement"
+                width="64px"
+                height="40px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- java script -->
+    <link rel="stylesheet" href="/CSS/js/bootstrap.min.js" />
+
+    <script src="/javaScript/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

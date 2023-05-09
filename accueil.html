@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/responsive.css" />
+
+    <title>Boutique en ligne</title>
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target=".navbar"
+    data-bs-offset="75"
+    class="body"
+  >
+    <header class="menu">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo-africaart.png" alt="logo-africaart" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+
+            <i class="fa-solid fa-bars"><span> </span> menu </i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav mx-2">
+              <li class="nav-item">
+                <a class="nav-link" href="accueil.html">ACCUEIL</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="listeProduits.html">ListsProduits</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Details Produits
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="detailProduitshomme.html"
+                      >Homme</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="detailProduitsfemme.html"
+                      >Femme</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="formulaireContact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-1 py-2"
+                type="search"
+                placeholder="Cherchez un Produit ..."
+                aria-label="search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                RECHERCHE
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ----------section panier et connecte ------------>
+
+    <section class="panier-connecte">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-between">
+            <a href="#" class="btn">
+              <img src="/images/panier.png" alt="panier" class="img-fluid" />
+              Panier
+            </a>
+            <a href="connection.html" class="btn">
+              <img
+                src="/images/utilisateur.png"
+                alt="utilisateur"
+                class="img-fluid"
+              />
+              Connecte
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SLIDE -->
+
+    <section class="slide">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <marquee behavior="" direction="left">
+              <h1>Achetez des habillements de qualité</h1>
+              <h4 class="font-weight-bolder text-warning">
+                Avec 50% de réduction
+              </h4></marquee
+            >
+
+            <div
+              id="carouselExampleDark"
+              class="carousel carousel-dark slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <div class="flexible">
+                    <img
+                      src="/images/bottines-chelsea-noir-cuir-veau-pleine-fleur.jpg"
+                      alt="chaussure1"
+                      width="70%"
+                      height="600px"
+                    />
+                  </div>
+                </div>
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <div class="flexible">
+                    <img
+                      src="/images/Tunique-Dashiki-manches-longues-pour-hommes-chemise-africaine-or-col-roul-demi-bouton-col-haut-Tailcoat.jpg"
+                      alt="chaussure1"
+                      width="70%"
+                      height="500px"
+                    />
+                  </div>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="flexible">
+                      <img
+                        src="/images/tenue-de-compression-de-sport-pour-homme-3-pieces (1).webp"
+                        alt="chaussure1"
+                        width="70%"
+                        height="500px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------- type produit --------------------->
+
+    <section class="type-produit">
+      <div class="container">
+        <h1>Types habillements</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/grandbobo1.jpg"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Grand Boubou Homme</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+
+                <p class="card-text">55.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/adjia.PNG"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Grande Boubou Femme</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">50.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/biram.jpg"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Menteau mode Africain</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">35.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/chaussure1.png"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Chaussure Homme</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">30.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/lacoste-elegance-curved-stitched-edges-101273.webp"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Ceinture</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">2.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/bracelet (1).webp"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Robe Vax</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">6.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/bracelet (3).jpg"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Costume</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text">45.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/casquette-3d-stripes.jpg"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Casquette</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">1.500F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/s-l500.png"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">chemise en mode Africain</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text">10.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/boots-arche-cyclad-cuir-nubucke-rouge-627827-1_1_1.png"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Chaussure Femme</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">14.000F</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/Ts-femme-dos-turquoise-Top-Gone-copie.png"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Tshirt</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+                <p class="card-text">2.000F</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img src="/images/6.webp" class="card-img-top" alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title">Lunette</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="/images/etoil(1).png"
+                    alt="etoile"
+                    class="img-fluid"
+                  />
+                </div>
+
+                <p class="card-text">11.000F</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produit les plus acheter ---------------->
+
+    <section class="produit-acheter">
+      <div class="container">
+        <h1>Produits les plus achetées</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/tenue-de-compression-de-sport-pour-homme-3-pieces (1).webp"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center">Tenue Sportif</h5>
+                <div class="etoile text-center">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text text-center text-success">14.000F</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/E44TV6BI-large.jpg"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center">Manche Veste</h5>
+                <div class="etoile text-center">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text text-center">40.000F</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/robe-vaxi.webp"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center">robe vaxi</h5>
+                <div class="etoile text-center">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text text-center">8.000F</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/bottines-chelsea-noir-cuir-veau-pleine-fleur.jpg"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body text-center">
+                <h5 class="card-title text-center">Chaussure Homme</h5>
+                <div class="etoile">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text text-center">30.000F</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/men-shirt-african-clothes-2018-traditional.jpg"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center">Chemise mode Africain</h5>
+                <div class="etoile text-center">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text text-center">5.000F</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <a
+                href="#"
+                class="stretched-link"
+                data-bs-toggle="modal"
+                data-bs-target="#bracelet"
+              >
+                <img
+                  src="/images/chaussures-talon-CR-camel-2b.webp"
+                  class="card-img-top"
+                  alt="bracelet"
+              /></a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center">Chaussure Femme</h5>
+                <div class="etoile text-center">
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                  <img src="/images/etoil.png" alt="etoile" class="img-fluid" />
+                </div>
+                <p class="card-text text-center">6.000F</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- temoignage -->
+
+    <section class="temoignage">
+      <h1 class="text-center">Témoignages Clients</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div
+              id="carouselExampleFade"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/images/Juliet-Ibrahim.jpg"
+                    class="d-block w-50 img-fluid mx-auto"
+                    alt="..."
+                  />
+                  <h4 class="text-center text-primary">Juliet-Ibrahim</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis beatae dicta eaque, ea reprehenderit aperiam
+                    provident corrupti saepe doloribus omnis illum laudantium
+                    perferendis similique sequi quos incidunt nemo quo! Cum.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/temoignage1.jpg"
+                    class="d-block w-50 img-fluid mx-auto"
+                    alt="..."
+                  />
+                  <h4 class="text-center text-primary">Ngagne Niang</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis beatae dicta eaque, ea reprehenderit aperiam
+                    provident corrupti saepe doloribus omnis illum laudantium
+                    perferendis similique sequi quos incidunt nemo quo! Cum.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/temoigne.jpg"
+                    class="d-block w-50 img-fluid mx-auto"
+                    alt="..."
+                  />
+                  <h4 class="text-center text-primary">Amina Camara</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis beatae dicta eaque, ea reprehenderit aperiam
+                    provident corrupti saepe doloribus omnis illum laudantium
+                    perferendis similique sequi quos incidunt nemo quo! Cum.
+                    QMAJSIZDZIFËFEOIFEGUR9G
+                  </p>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleFade"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------ footer----------------- -->
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center py-3"
+          >
+            <p>Copyright @ 2022 AFRICART</p>
+            <img src="/images/logo-africaart.png" alt="" />
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center py-3"
+          >
+            <a href=""><img src="/images/facebook.png" alt="dd" /></a>
+            <a href=""><img src="/images/instagram.png" alt="sd" /></a>
+            <a href=""><img src="/images/twitter.png" alt="twitter" /></a>
+            <a href=""><img src="/images/youtube.png" alt="youtube" /></a>
+          </div>
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-center py-3"
+          >
+            <a href=""
+              ><img
+                src="/images/Wari_logo.jpg"
+                alt="Wari_logo"
+                width="64px"
+                height="40px"
+            /></a>
+            <a href=""> <img src="/images/WAVE.jpg" alt="WAVE" /></a>
+            <a href=""
+              ><img
+                src="/images/téléchargement.png"
+                alt="téléchargement"
+                width="64px"
+                height="40px"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- java script -->
+    <link rel="stylesheet" href="/CSS/js/bootstrap.min.js" />
+
+    <script src="/javaScript/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
